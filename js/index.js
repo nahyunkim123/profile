@@ -14,7 +14,7 @@ TopBtn.addEventListener("click", scrollTop)
 
 
 
-axios.get("ㅎdata/data.json")
+axios.get("data/data.json")
 .then(function(res){
     res.data.Skill.map((e,i)=>{
 
