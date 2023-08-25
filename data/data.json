@@ -1,0 +1,28 @@
+  {
+    "Skill" : [
+        
+    {
+        "title" : "html",
+        "progressBefore" : 0,
+        "progressAfter" : 80
+   
+    },
+    {
+        "title" : "css",
+        "progressBefore" : 0,
+        "progressAfter" : 70
+     
+    },
+    {
+        "title" : "js",
+        "progressBefore" : 0,
+        "progressAfter" : 60
+    },
+    {
+        "title" : "react",
+        "progressBefore" : 0,
+        "progressAfter" : 10
+    }
+]
+
+}

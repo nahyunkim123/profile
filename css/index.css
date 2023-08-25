@@ -1,0 +1,53 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: 'S-CoreDream-3Light';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-3Light.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+*{font-family: 'S-CoreDream-3Light';}
+ul{list-style: none;}
+a{text-decoration: none; color: blue}
+
+.BG{background-image: linear-gradient(to top, #09203f 0%, #537895 100%);}
+#typed{color: #0011ff;}
+
+.swiper {
+    width: 100%;
+    height: 100%;
+  }
+
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+  }
+
+  .swiper-slide img {
+    display: block;
+    flex-basis: 30%;
+    width:400px;
+    height: 300px;
+    object-fit: cover;
+  }
+
+  .swiper {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .swiper-pagination-bullet-active {
+    width: 20px; height: 8px; border-radius: 7px;
+    color: #fff;
+    background: #0011ff;
+  }
+
+
+.top-btn:hover i {color: white;}

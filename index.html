@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="css/all.css">
+    <link rel="stylesheet" href="css/output.css">
+</head>
+<body>
+    
+<!-- main -->
+    <div class="BG w-full h-[700px] ">
+        <div class="mx-auto  mb-[200PX] w-[450px] h-[500px] pt-[70px]">
+            <div class="w-[400px] h-[400px] rounded-full bg-gray-200">
+            <img class="w-[350px] h-[360px] ml-[30px]" src="images/KakaoTalk_20230825_002429950_01.png" alt="1">
+            </div>
+            <h3 class="text-[30px] text-center mt-[30px] text-gray-200">
+                <p class="text-[40px]">안녕하세요!</p>
+                프론트엔드 개발자 김나현입니다
+            </h3>
+          
+        </div>  
+    </div>
+    <div class="w-[500px] mx-auto mt-[80px] text-center">
+    <span class="text-[37px] mt-[20px] text-gray-400">
+        저는 
+        <span id="typed" class="font-bold"></span>
+        <br>
+           개발자가 되고 싶습니다.
+    </span></div>
+    <!-- page 2 -->
+
+    <div class="page2 w-[1000px] mx-auto mt-[80px]" >
+        <h3 class="text-[50px] mb-5">About Me</h3>
+        <div class="flex align-middle">
+            <img src="https://via.placeholder.com/200" alt="200x200">
+            <p class=" basis-2/3 mt-[30px] ml-5 text-[30px]">평소 맡은 바는 끝까지 해낸다는 태도를 가지고
+                <br> 계획에 따라 성실히 일을 수행합니다
+            </p>
+        </div>
+        <div class="flex align-middle">
+        <p class= "text-[30px] basis-2/3 mr-5 mt-[30px]">'하루하루는 성실하게 인생 전체는 되는대로'라는 좌우명을 가지고 
+        매일을 알차게 보내려고 노력합니다!
+        </p>
+        <img src="https://via.placeholder.com/200" alt="200x200">
+        </div>
+        <div class="flex align-middle">
+        <img src="https://via.placeholder.com/200" alt="200x200">
+        <p class=" basis-2/3 text-[30px] ml-5 mt-[30px]">다양한 사람들과 소통하고 의견을 나누는 것을 좋아합니다 </p>
+        </div>
+    </div>
+
+    <!-- page 3 -->
+    <div class="page3 w-[1000px] mx-auto mt-[130px]">
+        <h3 class="text-[50px] mb-5">SKILL</h3>
+        <div class="mx-auto mt-8 max-w-7xl">
+            <div class="bg-white border rounded-md p-5 mb-8 last:mb-0 skill"></div>
+        </div>
+    </div>
+
+    <!-- page 4 -->
+    <div class="page3 w-[1000px] h-[600px] mx-auto mt-[100px] mb-30">
+        <h3 class="text-[50px]">PROJECT</h3>
+        <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <img src="images/subway.png" alt="subway">
+                <div class="content  ml-5 ">
+                    <h3 class="text-[30px]  text-green-700 font-bold">서브웨이 클론코딩 사이트</h3>
+                    서브웨이 웹사이트를 구현한 사이트입니다
+                </div>
+              </div>
+              <div class="swiper-slide>
+                <img src="images/to-do list.png" alt="to-do list">
+                <div class="content  ml-5 ">
+                    <h3 class="text-[30px] text-blue-700 font-bold">
+                        투두 리스트</h3>
+                     내용을 추가, 삭제할 수 있는 
+                     <br>투두리스트 기능을 구현하였습니다
+                </div>
+              </div> 
+            </div>
+            <div class="swiper-pagination pb-20"></div>
+        </div>
+    </div>
+
+
+    <div class="top-btn w-[50px] h-[50px] rounded-3xl bg-[#d2d2d2] z-10 hover:bg-[#0011ff] fixed bottom-[50px] right-[40px] cursor-pointer">
+         <i class="fa-solid fa-arrow-up ml-[40%] mt-[35%] text-[black] "></i>
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script src="js/index.js"></script>
+    <script>
+        let typed = new Typed("#typed",{
+            strings:[
+                "# 고민하고 또 고민하는",
+                "# 매일 성장하는",
+                "# 도전을 두려워하지 않는 "
+            ],
+            typeSpeed:100,
+            backSpeed: 80,
+            loop:true
+
+        })
+    </script>
+
+</body>
+</html>
