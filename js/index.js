@@ -40,6 +40,7 @@ axios.get("data/data.json")
         
         
        
+   
 
         setTimeout(()=>{
             div_child2.style.width = e.progressAfter + "%"},
